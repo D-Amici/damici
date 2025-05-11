@@ -34,8 +34,8 @@ Everything a customer needs to enjoy their visit to **D’amici Restaurant** is 
 
 ## 🚀 Live Demo
 
-👉 [Click here to visit the live site](https://fanespoitoru.github.io/concurs25/)  
-Or go to: https://fanespoitoru.github.io/concurs25/
+👉 [Click here to visit the live site](https://d-amici.github.io/damici/)  
+Or go to: https://d-amici.github.io/damici/
 
 ---
 
