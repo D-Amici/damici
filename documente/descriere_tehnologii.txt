@@ -1,0 +1,50 @@
+📄 Documentație Tehnică Detaliată – Site-ul „D’Amici”
+
+Proiectul „D’Amici” este un site web dedicat unui restaurant cu tematică italiană, creat pentru a oferi o experiență plăcută utilizatorilor, cu un design modern și funcționalități interactive. Site-ul folosește tehnologii web actuale și este optimizat pentru a fi accesibil pe orice tip de dispozitiv.
+
+🛠️ Tehnologii utilizate:
+
+HTML5 (HyperText Markup Language)
+HTML5 a fost folosit pentru crearea structurii de bază a paginilor site-ului. Printre principalele elemente incluse se numără:
+- Header cu logo-ul restaurantului și meniurile de navigare.
+- Secțiuni principale pentru meniuri, recenzii, formulare de rezervare și informații de contact.
+- Footer cu linkuri utile, detalii de contact și informații legale.
+
+CSS3 & Bootstrap 5
+CSS3 a fost folosit pentru stilizarea vizuală a site-ului, iar Bootstrap 5 a fost implementat pentru a crea un design responsive, care se adaptează automat la orice dimensiune de ecran. Utilizând Bootstrap, am obținut:
+- Grilă flexibilă (Grid system) pentru o dispunere uniformă și adaptabilă a elementelor pe pagină.
+- Butonul „Rezervă acum” stilizat pentru a atrage atenția utilizatorilor.
+- Carduri pentru afișarea meniurilor și recenziilor într-un mod elegant și ușor de citit.
+
+JavaScript & jQuery
+JavaScript a fost folosit pentru a adăuga funcționalități dinamice, printre care:
+- Validarea formularului de rezervare: Asigurarea că utilizatorii completează corect formularul înainte de a trimite datele la server.
+- Interacțiune în timp real cu Firebase: Gestionarea rezervărilor și a recenziilor utilizatorilor, asigurând actualizări rapide.
+
+Firebase (Platformă backend)
+Firebase a fost folosit pentru gestionarea datelor aplicației. În acest proiect, am utilizat următoarele funcționalități:
+- Firestore Database pentru stocarea recenziilor și a informațiilor despre rezervări. Fiecare recenzie este salvată în timp real și este disponibilă pentru a fi vizualizată pe site.
+- Gestionarea rezervărilor: Verificarea disponibilității meselor și stocarea acestora în baza de date.
+
+🎨 Design UX/UI
+Design-ul a fost creat pentru a reflecta atmosfera italiană a restaurantului, punând accent pe o experiență estetică și ușor de utilizat. Caracteristicile principale includ:
+- Paletă de culori calde: Tonuri de roșu și verde, inspirate din culorile tradiționale italiene.
+- Fonturi elegante și clare pentru o prezentare profesională și ușor de citit.
+- Animații subtile și tranziții fluide pentru a îmbunătăți interactivitatea și experiența utilizatorului.
+
+🔑 Funcționalități Cheie ale Site-ului „D’Amici”:
+
+Formular de Rezervare Online
+Utilizatorii pot rezerva mese online prin completarea unui formular ce include câmpuri pentru data, ora, numărul de persoane și alte detalii relevante. Formularul este validat în timp real pentru a asigura corectitudinea datelor înainte de a fi trimise către server.
+
+Secțiunea de Recenzii
+Clienții pot lăsa recenzii despre experiența lor la restaurant, care sunt stocate în baza de date Firebase și sunt vizibile pe site. Această funcționalitate ajută alți utilizatori să ia o decizie informată despre restaurant.
+
+Pagina de Meniu
+Meniul restaurantului este prezentat într-un format interactiv, cu descriere detaliată a fiecărui preparat, imagini și prețuri. Printre cele mai populare preparate se numără și steak-ul italian clasic, fraged și suculent, servit cu garnituri alese și sosuri autentice – un adevărat punct de atracție pentru pasionații de carne. Meniul este ușor de navigat și se încarcă rapid pe toate dispozitivele.
+
+Design Responsive
+Site-ul este complet responsive, oferind o experiență optimă atât pe desktop, cât și pe dispozitive mobile și tablete. Toate secțiunile și funcționalitățile sunt accesibile indiferent de dimensiunea ecranului.
+
+Asistent Virtual cu Inteligență Artificială (AI)  
+Site-ul integrează un asistent virtual AI capabil să răspundă automat întrebărilor frecvente despre meniuri, recomandări culinare, disponibilitate și procesul de rezervare. Acesta este conceput pentru a oferi o experiență interactivă clienților și pentru a reduce timpul de răspuns al personalului, fiind antrenat pe baza datelor despre preparatele din meniu, preferințele alimentare (ex: vegetarian, fără gluten) și programul restaurantului.
