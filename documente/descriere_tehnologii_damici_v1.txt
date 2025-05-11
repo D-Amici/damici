@@ -1,0 +1,21 @@
+Tehnologii Utilizate în Site-ul „D’Amici”
+
+„D’Amici” este un site web dedicat unui restaurant italian, proiectat cu accent pe experiența utilizatorului și funcționalități moderne. Alegerea tehnologiilor a avut ca scop realizarea unui produs web stabil, ușor de folosit și atractiv.
+
+Frontend:
+- HTML5 a stat la baza structurii site-ului, organizând clar informațiile în secțiuni logice.
+- CSS3 a fost utilizat pentru a reda identitatea vizuală a restaurantului, cu accente italiene clasice.
+- Bootstrap 5 a permis crearea unui layout responsive și a unor elemente UI prietenoase.
+- JavaScript Vanilla a permis interactivitatea formularelor, validarea câmpurilor și gestionarea comportamentului dinamic al paginilor.
+
+Backend:
+- Firebase Firestore a fost baza noastră de date pentru recenzii și rezervări. A permis scrierea și citirea rapidă a datelor în timp real.
+
+Design:
+- S-a folosit o paletă cromatică caldă (roșu, verde, crem), evocând tradiția italiană.
+- Layout-ul responsive asigură accesibilitate totală, indiferent de dispozitiv.
+- Animațiile CSS au fost aplicate cu grijă pentru a menține interacțiunea fluidă.
+
+Altele:
+- Git și GitHub au fost instrumentele principale pentru controlul versiunilor și colaborarea între membri.
+- Figma, dacă a fost utilizat, a oferit o vedere clară asupra designului final înainte de implementare.

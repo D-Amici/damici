@@ -48,3 +48,21 @@ Site-ul este complet responsive, oferind o experiență optimă atât pe desktop
 
 Asistent Virtual cu Inteligență Artificială (AI)  
 Site-ul integrează un asistent virtual AI capabil să răspundă automat întrebărilor frecvente despre meniuri, recomandări culinare, disponibilitate și procesul de rezervare. Acesta este conceput pentru a oferi o experiență interactivă clienților și pentru a reduce timpul de răspuns al personalului, fiind antrenat pe baza datelor despre preparatele din meniu, preferințele alimentare (ex: vegetarian, fără gluten) și programul restaurantului.
+
+
+
+Site-ul „D’Amici” reprezintă o aplicație web modernă, dezvoltată cu scopul de a crea o experiență digitală autentică pentru un restaurant cu tematică italiană. În cadrul acestui proiect, am integrat un set coerent de tehnologii web actuale, urmărind atât partea vizuală și interactivă (frontend), cât și funcționalitatea real-time a datelor (backend).
+
+Pentru structura paginilor web, am utilizat HTML5, limbajul standard în crearea conținutului pe internet. Cu ajutorul acestuia, am definit secțiuni esențiale precum meniul restaurantului, formularul de rezervare și zona de recenzii. Stilizarea acestor elemente a fost realizată cu CSS3, care a permis definirea culorilor, a fonturilor și a layout-ului general.
+
+Un rol esențial în obținerea unui design responsive l-a avut Bootstrap 5, un framework CSS care mi-a oferit un sistem de grilă flexibil și componente UI predefinite. Astfel, cardurile de meniu, butoanele interactive și formularul de rezervare au fost implementate eficient, adaptându-se automat la dimensiunea ecranului – fie el mobil, tabletă sau desktop.
+
+Pentru funcționalități dinamice, am apelat la JavaScript Vanilla, fără biblioteci externe, ceea ce mi-a permis să personalizez complet logica aplicației. Am implementat validarea formularelor în timp real și am gestionat interacțiunile directe ale utilizatorului cu baza de date.
+
+Partea de backend a fost realizată cu ajutorul platformei Firebase, mai exact Firebase Firestore, care permite stocarea datelor în timp real. Am folosit această soluție pentru a salva și afișa instantaneu rezervările și recenziile trimise de utilizatori, oferind o experiență interactivă și fluentă.
+
+Design-ul UX/UI a fost inspirat din tematica italiană a restaurantului: am folosit o paletă cromatică caldă, cu nuanțe de roșu, verde și crem, specifice culturii italiene. Fonturile alese sunt clare și elegante, iar layout-ul a fost conceput astfel încât să fie intuitiv – cu o singură coloană pe mobil și două coloane pe ecrane mari. În plus, am adăugat animații CSS subtile pentru tranziții line și interacțiuni vizuale plăcute.
+
+Pentru gestionarea codului sursă și colaborare, am utilizat Git și GitHub, ceea ce mi-a permis să mențin versiuni clare ale proiectului, să colaborez în echipă și să public aplicația online. Opțional, în etapa de prototipare, am folosit Figma pentru a vizualiza structura interfeței înainte de implementarea în cod.
+
+Prin îmbinarea acestor tehnologii, site-ul „D’Amici” oferă o experiență modernă, elegantă și complet funcțională – reflectând fidel spiritul rafinat și ospitalitatea unui restaurant italian autentic.
