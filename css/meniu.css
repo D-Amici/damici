@@ -1,6 +1,10 @@
 .navbar-toggler {
     box-shadow: none !important;
 }
+.grid > h1 {
+    text-align: center;
+    width: 100%;
+}
 
 body {
     font-family: Arial, sans-serif;

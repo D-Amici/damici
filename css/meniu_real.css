@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
 }
+.grid > h1 {
+    text-align: center;
+    width: 100%;
+}
+
 
 #welcome img {
   width: 100%;

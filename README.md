@@ -11,6 +11,7 @@ Built with:
 ![Firebase](https://img.shields.io/badge/Firebase-ffca28?logo=firebase&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-4E8D7D?logo=json&logoColor=white)
 
 ---
 
@@ -44,7 +45,7 @@ Or go to: https://d-amici.github.io/damici/
 If you want to run it locally:
 
 ```bash
-git clone https://github.com/fanespoitoru/concurs25.git
+git clone https://github.com/D-Amici/damici.git
 cd concurs25
 # Open index.html in your browser or use a live server
 ```
