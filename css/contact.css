@@ -31,19 +31,11 @@ body {
   background: url('../pictures/floor-tile.png') no-repeat center center/cover;
   background-size: 200px;
   background-repeat: repeat;
-  cursor: url("https://cdn.custom-cursor.com/db/cursor/pointer_1426.png"), auto;
+  
 
 }
 
-body:hover {
-  cursor: url("https://cdn.custom-cursor.com/db/cursor/pointer_1426.png"), auto;
-}
 
-::selection {
-  background: rgba(255, 255, 0, 0.5);
-  color: black;
-  cursor: url("https://cdn.custom-cursor.com/db/cursor/pointer_1426.png"), auto, auto;
-}
 
 body::before {
   content: "";
