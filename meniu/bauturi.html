@@ -98,35 +98,32 @@
         <i class="fa-solid fa-magnifying-glass" id="searchicn"></i>
         <input type="text" id="searchInput" placeholder="Caută în meniu..." class="form-control mb-4">
         <script>
-            document.getElementById("searchInput").addEventListener("keyup", function () {
-                const query = this.value.toLowerCase();
-                const sections = document.querySelectorAll(".menu-item-types");
+document.getElementById("searchInput").addEventListener("keyup", function () {
+    const query = this.value.toLowerCase();
+    const sections = document.querySelectorAll(".grid > h1");
 
-                sections.forEach(section => {
-                    let anyVisible = false;
-                    const listItems = section.querySelectorAll("li");
+    sections.forEach(section => {
+        // Obține toate butoanele de sub titlu, până la următorul <h1>
+        let sibling = section.nextElementSibling;
+        let hasVisibleButton = false;
 
-                    listItems.forEach(li => {
-                        const button = li.querySelector(".openBtn");
-                        const text = button.textContent.toLowerCase();
+        while (sibling && sibling.tagName !== "H1") {
+            if (sibling.classList.contains("openBtn")) {
+                const text = sibling.textContent.toLowerCase();
+                const match = text.includes(query);
+                sibling.style.display = match ? "block" : "none";
+                if (match) hasVisibleButton = true;
+            }
+            sibling = sibling.nextElementSibling;
+        }
 
-                        if (text.includes(query)) {
-                            li.style.display = "block";
-                            anyVisible = true;
-                        } else {
-                            li.style.display = "none";
-                        }
-                    });
+        // Ascunde sau afișează titlul în funcție de rezultatul filtrului
+        section.style.display = hasVisibleButton ? "block" : "none";
+    });
+});
+</script>
 
-                    // Ascunde lista și titlul dacă nu există rezultate în acea secțiune
-                    section.style.display = anyVisible ? "block" : "none";
-                    const heading = section.previousElementSibling;
-                    if (heading && heading.tagName.startsWith("H")) {
-                        heading.style.display = anyVisible ? "block" : "none";
-                    }
-                });
-            });
-        </script>
+
 
         <div class="grid">
             <h1>🧃 Băuturi răcoritoare</h1><br>

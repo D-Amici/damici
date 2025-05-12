@@ -71,33 +71,22 @@
 
 
     <script>
-      document.getElementById("searchInput").addEventListener("keyup", function () {
-        const query = this.value.toLowerCase();
-        const sections = document.querySelectorAll(".menu-item-types");
+document.getElementById("searchInput").addEventListener("keyup", function () {
+    const query = this.value.toLowerCase();
+    const buttons = document.querySelectorAll(".categorie.openBtn");
 
-        sections.forEach(section => {
-          let anyVisible = false;
-          const listItems = section.querySelectorAll("li");
+    buttons.forEach(button => {
+        const text = button.textContent.toLowerCase();
+        if (text.includes(query)) {
+            button.style.display = "block";
+        } else {
+            button.style.display = "none";
+        }
+    });
+});
+</script>
 
-          listItems.forEach(li => {
-            const button = li.querySelector(".openBtn");
-            const text = button.textContent.toLowerCase();
 
-            if (text.includes(query)) {
-              li.style.display = "block";
-              anyVisible = true;
-            } else {
-              li.style.display = "none";
-            }
-          });
-          section.style.display = anyVisible ? "block" : "none";
-          const heading = section.previousElementSibling;
-          if (heading && heading.tagName.startsWith("H")) {
-            heading.style.display = anyVisible ? "block" : "none";
-          }
-        });
-      });
-    </script>
     <script>
       fetch('paste.json')
         .then(response => response.json())

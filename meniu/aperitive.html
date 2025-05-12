@@ -96,35 +96,21 @@
     <i class="fa-solid fa-magnifying-glass" id="searchicn"></i>
     <input type="text" id="searchInput" placeholder="Caută în meniu..." class="form-control mb-4">
     <script>
-      document.getElementById("searchInput").addEventListener("keyup", function () {
-        const query = this.value.toLowerCase();
-        const sections = document.querySelectorAll(".menu-item-types");
+document.getElementById("searchInput").addEventListener("keyup", function () {
+    const query = this.value.toLowerCase();
+    const buttons = document.querySelectorAll(".categorie.openBtn");
 
-        sections.forEach(section => {
-          let anyVisible = false;
-          const listItems = section.querySelectorAll("li");
+    buttons.forEach(button => {
+        const text = button.textContent.toLowerCase();
+        if (text.includes(query)) {
+            button.style.display = "block";
+        } else {
+            button.style.display = "none";
+        }
+    });
+});
+</script>
 
-          listItems.forEach(li => {
-            const button = li.querySelector(".openBtn");
-            const text = button.textContent.toLowerCase();
-
-            if (text.includes(query)) {
-              li.style.display = "block";
-              anyVisible = true;
-            } else {
-              li.style.display = "none";
-            }
-          });
-
-          // Ascunde lista și titlul dacă nu există rezultate în acea secțiune
-          section.style.display = anyVisible ? "block" : "none";
-          const heading = section.previousElementSibling;
-          if (heading && heading.tagName.startsWith("H")) {
-            heading.style.display = anyVisible ? "block" : "none";
-          }
-        });
-      });
-    </script>
 
     <script>
 
