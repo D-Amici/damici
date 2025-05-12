@@ -176,17 +176,7 @@ body {
   text-align: center;
 }
 
-body {
-  cursor: url("https://cdn.custom-cursor.com/db/cursor/pointer_1426.png"), auto;
-}
 
-body:hover {
-  cursor: url("https://cdn.custom-cursor.com/db/cursor/pointer_1426.png"), auto;
-}
-
-* {
-  cursor: url("https://cdn.custom-cursor.com/db/cursor/pointer_1426.png"), auto;
-}
 
 body::before {
   content: "";
