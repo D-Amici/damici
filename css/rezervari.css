@@ -693,3 +693,40 @@ h2 {
     margin-bottom: 5px;
   }
 }
+
+
+/*butondarkmode*/
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .navbar {
+  background-color: #1a1a1a !important;
+}
+
+.dark-mode .card {
+  background-color: #2c2c2c;
+  color: white;
+  border: 1px solid #444;
+}
+
+.dark-mode a {
+  color: #ffd700;
+}
+
+.dark-mode .btn {
+  border-color: #fff;
+  color: #fff;
+}
+
+.dark-mode footer {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.dark-mode .telefon-rezervari {
+  color: white;
+}
+
+/*/butondarkmode*/
