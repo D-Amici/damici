@@ -148,6 +148,13 @@
   margin: 0 !important;
 }
 
+
+header {
+  position: sticky;
+ top: 0;
+  background-color: white;
+  z-index: 1000;
+}
 /*/navbar*/
 
 
