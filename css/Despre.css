@@ -24,6 +24,11 @@
 
 
 
+#pfp {
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none !important;
+  font-family: Playwrite AU SA, cursive;
+}
 
 
 
@@ -640,7 +645,11 @@ body.dark-mode {
 }
 
 .dark-mode a {
-  color: #ffd700;
+  color: #ffd700 ;
+}
+
+.dark-mode #pfp{
+  color: #ffffff !important;
 }
 
 .dark-mode .btn {

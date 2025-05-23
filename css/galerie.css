@@ -62,6 +62,8 @@
   letter-spacing: 1.2px;
 }
 
+
+
 @media (max-width: 991.98px) {
   .navbar-mobile {
     flex-direction: column;
@@ -270,15 +272,10 @@ body.dark-mode::before {
 }
 
 header {
-  font-family: "Playwrite AU SA", cursive;
-  font-optical-sizing: auto;
-  background-color: #333;
-  color: rgb(255, 255, 255);
-  padding: 15px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+  position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
 }
 
 .btn {

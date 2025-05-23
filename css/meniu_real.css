@@ -560,6 +560,10 @@ body.dark-mode::before {
   }
 }
 
+#hero{
+  text-align: center;
+}
+
 .openBtn:hover {
   transform: scale(1.05);
 }
